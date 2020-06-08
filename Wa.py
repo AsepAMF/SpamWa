@@ -1,7 +1,7 @@
 #!/usr/bin/python2
 
 # Creator :  AsepAMF-3XP
-# Team : Black Coders Satanic Exploiter Team ( BCA - X666X )
+# Team : muslim cyber by termux
 # Recode Tidak Akan Membuat Anda Menjadi Pencipta Kode :3
 
 from requests import ConnectionError
@@ -197,7 +197,7 @@ def Spam():
 	os.system('clear')
 	print(C+'Subscribe YT'+W+' Gua Dlu Su !'+C+' :V')
 	sleep(1.5)
-	os.system('xdg-open https://www.youtube.com/channel/UCzsADl8XRJeZXJ6CKZLX5KQ')
+	os.system('xdg-open https://youtu.be/I5lhnxC2aYI')
 	os.system('clear')
 	sleep(1.3)
 	Banner()
@@ -205,7 +205,7 @@ def Spam():
 	print
 	print(C+'MENU'+W+' :')
 	print(C+'\t['+W+'1'+C+']'+W+' SPAM TOKOPEDIA'+C+' ( '+H+'Aktif'+C+' )')
-	print(C+'\t['+W+'2'+C+']'+W+' SPAM RUPA-RUPA'+C+' ( '+M+'NonAktif'+C+' )')
+	print(C+'\t['+W+'2'+C+']'+W+' SPAM RUPA-RUPA'+C+' ( '+M+'NonAktif lagi ada perbaikan bro'+C+' )')
 	print
 	
 	try:
