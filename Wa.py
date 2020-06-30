@@ -48,7 +48,7 @@ def RupaRupa():
 	MesinTik(W+'\t================')
 	print
 	number = raw_input(''+C+'MASUKKAN NOMOR TARGET'+W+' ('+H+' Ex :'+C+' 0812xxxx '+W+') : ')
-	jumlah = input(''+C+'JUMLAH SPAM'+W+' ('+H+' Ex :'+C+' 3 '+W+') : ')
+	jumlah = input(''+C+'JUMLAH SPAM'+W+' ('+H+' Ex :'+C+' 1000 '+W+') : ')
 	print
 	MesinTik_2(''+C+'-------------- '+W+'Starting'+C+' --------------')
 	print
