@@ -10,7 +10,7 @@ $ pip2 install requests
 
 $ git clone https://github.com/AsepAMF/SpamWa
 
-$ figlet AsepTEA
+$ figlet aku noob
 
 $ cd SpamWa
 
