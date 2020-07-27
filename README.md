@@ -1,4 +1,4 @@
-# SpamWa
+# SpamWAkontol
 
 
 
@@ -8,7 +8,7 @@ $ pkg install python2
 
 $ pip2 install requests
 
-$ git clone https://github.com/AsepAMF/SpamWa
+$ git clone https://github.com/AsepAMF/SpamWAkontol
 
 $ cd SpamWa
 
